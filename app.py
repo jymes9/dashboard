@@ -23,14 +23,14 @@ external_stylesheets = [
     }, "https://codepen.io/chriddyp/pen/bWLwgP.css",
 ]
 firebaseConfig = {
-    "apiKey": "AIzaSyA9Ziyi_GDpAsLSBfn3WpJVc0XTEPqfXNw",
-    "authDomain": "test-8cb90.firebaseapp.com",
-    "databaseURL": "https://test-8cb90-default-rtdb.europe-west1.firebasedatabase.app",
+    "apiKey": "YOUR API KEY",
+    "authDomain": "XXXXXXXXXXXXXXXXXX",
+    "databaseURL": "XXXXXXXXXXXXXXXXXX",
     "projectId": "test-8cb90",
     "storageBucket": "test-8cb90.appspot.com",
-    "messagingSenderId": "539040571350",
-    "appId": "1:539040571350:web:57e34c7c1e1b5bdcc00e77",
-    "measurementId": "G-SQB3QGL4HL"}
+    "messagingSenderId": "XXXXXXXXXXXXXXXXXX",
+    "appId": "XXXXXXXXXXXXXXXXXX",
+    "measurementId": "XXXXXXXXXXXXXXXXXX"}
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 db = firebase.database()
